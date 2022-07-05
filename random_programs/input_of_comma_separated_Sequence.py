@@ -1,0 +1,6 @@
+nums = input().split()
+print(f'nums list is : {nums} and type is {type(nums)}')
+my_set = set(nums)
+print(f'Set is : {my_set}')
+my_tuple = tuple(nums)
+print(f'Tuple is : {my_tuple}')
